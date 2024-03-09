@@ -1,0 +1,5 @@
+pull if needs and build a container
+docker run --name mysql -e MYSQL_ROOT_PASSWORD="@$admin123" -p 3306:3306 -d mysql:8
+
+exec bash in container
+docker exec -it mysql bash
